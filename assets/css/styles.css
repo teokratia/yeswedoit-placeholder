@@ -50,6 +50,7 @@ body {
     width: 90px;
     height: auto;
     display: block;
+    margin-top: 36px;
     margin-bottom: auto; /* Дает место снизу */
 }
 
