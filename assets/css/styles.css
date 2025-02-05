@@ -58,6 +58,8 @@ body {
 .content {
     flex: 1; /* Занимает всё доступное место */
     display: flex;
+    margin: 0;
+    padding: 0;
     flex-direction: column;
     justify-content: center; /* Центрируем */
     align-items: center;
