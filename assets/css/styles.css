@@ -15,36 +15,60 @@ body {
     color: #ffffff;
     font-family: 'Manrope', sans-serif;
     margin: 0;
-    padding: 36px 0;
+    padding: 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Убираем прокрутку */
+    position: relative;
+}
+
+/* Основной контейнер */
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    padding: 36px 0;
 }
 
 /* Логотип */
 .logo {
-    margin-bottom: 36px;
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto 36px;
 }
 
 /* Контентный блок */
 .content {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 36px - 36px); /* 100% высоты минус отступы сверху и снизу */
 }
 
-.content h1 {
-    font-size: 12px;
+.subtitle {
+    font-size: 12pt;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 
-.content h2 {
-    font-size: 34px;
+.headline {
+    font-size: 34pt;
     font-weight: 400;
-    margin: 20px 0;
+    margin-bottom: 24px;
 }
 
 /* Кнопки */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
 .button {
     display: inline-block;
     width: 180px;
@@ -52,39 +76,41 @@ body {
     line-height: 40px;
     text-align: center;
     text-decoration: none;
-    font-size: 12px;
-    margin: 4px;
+    font-size: 12pt;
     border-radius: 4px;
 }
 
-.btn-primary {
+.button-primary {
     background-color: #ffffff;
     color: #0E0E08;
     font-family: 'Cooper LT BT', sans-serif;
+    font-weight: bold;
+    border: none;
+    text-fill-color: #eeee69;
+    -webkit-text-fill-color: #eeee69;
 }
 
-.btn-secondary {
+.button-secondary {
     background-color: transparent;
     color: #000000;
-    border: 1px solid #000000;
+    font-family: 'Manrope', sans-serif;
+    border: 1px solid #1C1D1B;
 }
 
-/* Бегущая строка */
-.marquee {
-    position: fixed;
+/* SVG фоновая картинка */
+.background-svg {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+    max-width: 100%;
+}
+
+/* Нижний SVG */
+.footer-svg {
+    position: absolute;
     bottom: 36px;
     width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-.marquee svg {
-    display: inline-block;
     height: 46px;
-    animation: marquee 10s linear infinite;
-}
-
-@keyframes marquee {
-    from { transform: translateX(100%); }
-    to { transform: translateX(-100%); }
 }
