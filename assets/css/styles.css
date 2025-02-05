@@ -57,13 +57,13 @@ body {
     border-radius: 4px;
 }
 
-.button-primary {
+.btn-primary {
     background-color: #ffffff;
     color: #0E0E08;
     font-family: 'Cooper LT BT', sans-serif;
 }
 
-.button-secondary {
+.btn-secondary {
     background-color: transparent;
     color: #000000;
     border: 1px solid #000000;
