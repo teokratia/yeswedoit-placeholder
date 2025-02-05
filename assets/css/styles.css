@@ -38,10 +38,11 @@ body {
     text-align: center;
     width: 100%;
     max-width: 600px;
-    padding: auto;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    justify-content: center; /* Центрируем по вертикали */
+    align-items: center; /* Центрируем по горизонтали */
+    height: 100vh; /* Растягиваем на весь экран */
 }
 
 /* Логотип */
@@ -49,7 +50,7 @@ body {
     width: 90px;
     height: auto;
     display: block;
-    margin-top: 36px;
+    margin-bottom: auto; /* Дает место снизу */
 }
 
 /* Контентный блок */
@@ -135,9 +136,9 @@ body {
 /* Нижний SVG */
 .footer-svg {
     position: absolute;
-    bottom: 0;
+    bottom: 36px; /* Немного поднимаем */
     left: 50%;
-    transform: translateX(-50%); /* выравниваем по центру */
+    transform: translateX(-50%);
     width: 100%;
     height: auto;
     max-width: 100%;
