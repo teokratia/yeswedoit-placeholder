@@ -103,13 +103,23 @@ body {
 }
 
 .button-primary {
-    background-color: #ffffff;
-    color: #0E0E08;
+    background: white;
+    padding: 15px 30px;
+    border-radius: 11px;
+    display: inline-block;
+    text-decoration: none;
     font-family: 'Cooper LT BT', sans-serif;
-    font-weight: bold;
-    border: none;
-    text-fill-color: #000000;
-    -webkit-text-fill-color: #000000;
+    font-size: 10px;
+    font-weight: regular;
+    color: black;
+    position: relative;
+}
+
+.button-primary span {
+    background: #e3e354; /* Цвет фона под текстом */
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    padding: 0 5px;
 }
 
 .button-secondary {
