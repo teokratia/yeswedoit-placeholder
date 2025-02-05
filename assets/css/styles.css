@@ -103,8 +103,8 @@ body {
     font-family: 'Cooper LT BT', sans-serif;
     font-weight: bold;
     border: none;
-    text-fill-color: #eeee69;
-    -webkit-text-fill-color: #eeee69;
+    text-fill-color: #000000;
+    -webkit-text-fill-color: #000000;
 }
 
 .button-secondary {
