@@ -24,6 +24,15 @@ body {
     position: relative;
 }
 
+.parent-container { /* родительский блок для .content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* центрирование по вертикали */
+    align-items: center; /* центрирование по горизонтали */
+    height: 100vh; /* высота на весь экран */
+    position: relative;
+}
+
 /* Основной контейнер */
 .container {
     text-align: center;
