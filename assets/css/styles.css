@@ -61,7 +61,7 @@ body {
 .subtitle {
     font-size: 10pt;
     text-transform: uppercase;
-    margin-bottom: 46px;
+    margin: 0; /* Убираем все стандартные отступы /#   margin-bottom: 46#px; */
 }
 
 .headline {
@@ -71,6 +71,7 @@ body {
     font-size: 36pt;
     font-weight: 400;
     margin-bottom: 46px; /* Задаем свой нижний отступ */
+    margin-top: 46px;
 }
 
 /* Кнопки */
@@ -89,7 +90,7 @@ body {
     text-align: center;
     text-decoration: none;
     font-size: 12pt;
-    border-radius: 4px;
+    border-radius: 11px;
 }
 
 .button-primary {
