@@ -59,15 +59,18 @@ body {
 }
 
 .subtitle {
-    font-size: 12pt;
+    font-size: 10pt;
     text-transform: uppercase;
-    margin-bottom: 16px;
+    margin-bottom: 46px;
 }
 
 .headline {
     font-size: 34pt;
     font-weight: 400;
-    margin-bottom: 24px;
+    margin: 0; /* Убираем все стандартные отступы */
+    font-size: 36pt;
+    font-weight: 400;
+    margin-bottom: 46px; /* Задаем свой нижний отступ */
 }
 
 /* Кнопки */
