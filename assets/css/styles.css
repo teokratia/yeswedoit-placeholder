@@ -39,6 +39,9 @@ body {
     width: 100%;
     max-width: 600px;
     padding: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Логотип */
@@ -51,11 +54,12 @@ body {
 
 /* Контентный блок */
 .content {
+    flex: 1; /* Занимает всё доступное место */
     display: flex;
     flex-direction: column;
+    justify-content: center; /* Центрируем */
     align-items: center;
-    justify-content: center;
-    height: calc(100vh - 36px - 36px); /* 100% высоты минус отступы сверху и снизу */
+    min-height: 0; /* На всякий случай */
 }
 
 .subtitle {
