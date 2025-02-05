@@ -1,0 +1,90 @@
+/* Подключение шрифтов */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Cooper LT BT';
+    src: url('/assets/fonts/CooperLTBT.woff2') format('woff2'),
+         url('/assets/fonts/CooperLTBT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Общие стили */
+body {
+    background-color: #0E0E08;
+    color: #ffffff;
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 36px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Логотип */
+.logo {
+    margin-bottom: 36px;
+}
+
+/* Контентный блок */
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.content h2 {
+    font-size: 34px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+/* Кнопки */
+.button {
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 4px;
+    border-radius: 4px;
+}
+
+.button-primary {
+    background-color: #ffffff;
+    color: #0E0E08;
+    font-family: 'Cooper LT BT', sans-serif;
+}
+
+.button-secondary {
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+/* Бегущая строка */
+.marquee {
+    position: fixed;
+    bottom: 36px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marquee svg {
+    display: inline-block;
+    height: 46px;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+}
