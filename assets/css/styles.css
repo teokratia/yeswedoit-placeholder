@@ -121,6 +121,7 @@ body {
     padding: 0px 0px; /* Уменьшаем отступы вокруг текста */
     line-height: 1; /* Исправляем высоту текста */
     display: inline-block; /* Корректное поведение */
+    border-radius: 8px;
 }
 
 .button-secondary {
