@@ -12,8 +12,8 @@
 /* Кастомный курсор - точка */
 .cursor-dot {
     position: fixed;
-    width: 6px; /* Размер точки */
-    height: 6px;
+    width: 15px; /* Размер точки */
+    height: 15px;
     background-color: white; /* Цвет курсора */
     border-radius: 50%; /* Делаем круглым */
     pointer-events: none; /* Чтобы курсор не блокировал клики */
