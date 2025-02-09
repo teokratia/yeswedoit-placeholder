@@ -112,6 +112,8 @@ body {
     font-weight: regular;
     color: black;
     position: relative;
+    width: 180; /* дублируем ширину */
+    height: 40; /* дублируем высоту */
 }
 
 .button-primary span {
