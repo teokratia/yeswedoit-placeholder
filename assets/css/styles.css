@@ -116,10 +116,12 @@ body {
 }
 
 .button-primary span {
-    background: #e3e354; /* Цвет фона под текстом */
-    padding: 2px 5px; /* Добавляем немного отступов */
-    display: inline-block; /* Делаем элемент блочным, чтобы фон корректно применился */
-    border-radius: 3px; /* Добавляем скругление фона */
+    background: #eeee69; /* Цвет фона под текстом */
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    padding: 0px 0px; /* Уменьшаем отступы вокруг текста */
+    line-height: 1; /* Исправляем высоту текста */
+    display: inline-block; /* Корректное поведение */
 }
 
 .button-secondary {
