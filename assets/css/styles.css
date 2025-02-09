@@ -171,6 +171,8 @@ body {
 @media (max-width: 768px) {
     .footer-svg {
         height: 64px; /* увеличиваем высоту в моб. версии */
+        width: 140vw; /* Еще больше растягиваем на мобильных */
+        transform: translateX(-20%); /* Корректируем центр */
     }
 }
 
