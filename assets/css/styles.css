@@ -104,12 +104,11 @@ body {
 
 .button-primary {
     background: white;
-    padding: 15px 30px;
+    padding: 8px 20px;
     border-radius: 11px;
     display: inline-block;
     text-decoration: none;
     font-family: 'Cooper LT BT', sans-serif;
-    font-size: 10px;
     font-weight: regular;
     color: black;
     position: relative;
