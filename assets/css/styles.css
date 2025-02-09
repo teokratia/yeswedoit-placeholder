@@ -135,8 +135,13 @@ body {
 }
 
 .button-secondary:hover {
-    background-color: #000000;
-    color: #0E0E08;
+    background-color: #171717;
+    color: #ffffff;
+}
+
+.button-primary:hover {
+    background-color: #eeee69;
+    color: #0A0B0C;
 }
 
 /* SVG фоновая картинка */
