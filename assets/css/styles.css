@@ -117,7 +117,7 @@ body {
 .button-primary {
     background: white;
     padding: 0;
-    border-radius: 11px;
+    border-radius: 6px;
     display: inline-block;
     text-decoration: none;
     font-family: 'Cooper LT BT', sans-serif;
