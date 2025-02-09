@@ -11,6 +11,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/svg/favicon-180x180.png">
 </head>
 <body>
+    <div class="cursor-dot"></div> <!-- Добавляем кастомный курсор -->
     <div class="container">
         <img src="/assets/svg/main-logo.svg" alt="YesWeDoIt Logo" class="logo">
         <div class="content">
@@ -24,5 +25,16 @@
         <img src="/assets/svg/back.svg" alt="Background" class="background-svg">
         <img src="/assets/svg/few-clients.svg" alt="Decorative SVG" class="footer-svg">
     </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const cursorDot = document.querySelector(".cursor-dot");
+
+        document.addEventListener("mousemove", function (e) {
+            cursorDot.style.left = `${e.clientX}px`;
+            cursorDot.style.top = `${e.clientY}px`;
+        });
+        });
+    </script>
+
 </body>
 </html>
