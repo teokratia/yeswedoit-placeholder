@@ -86,7 +86,7 @@ body {
     height: auto;
     display: block;
     margin-top: 36px;
-    margin-bottom: auto; /* Дает место снизу */
+   /* margin-bottom: auto; /* Дает место снизу */
     cursor: none;
 }
 
