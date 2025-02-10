@@ -29,6 +29,11 @@ html, body {
 
 * {
     cursor: none !important;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow: hidden; /* Убираем вертикальную прокрутку */
 }
 
 @media (max-width: 1024px) { /* Можно изменить на 768px, если только для телефонов */
