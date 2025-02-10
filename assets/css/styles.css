@@ -184,23 +184,48 @@ body {
     z-index: -100;
 }
 
-/* Нижний SVG */
+.footer-wrapper {
+    position: absolute;
+    bottom: 36px; /* Отступ снизу */
+    left: 0;
+    width: 100%;
+    overflow: hidden; /* Обрезаем лишнее */
+    white-space: nowrap; /* Запрещаем перенос строк */
+}
+
+.footer-svg {
+    display: inline-block;
+    height: 38px; /* Фиксированная высота */
+    width: auto;
+    animation: moveFooter 20s linear infinite; /* Анимация 20 секунд, повторяется бесконечно */
+}
+
+@keyframes moveFooter {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* Нижний SVG 
 .footer-svg {
     position: absolute;
-    bottom: 36px; /* Немного поднимаем */
+    bottom: 36px; /* Немного поднимаем 
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
     height: auto;
     max-width: 100%;
-    display: block; /* Убираем возможные лишние отступы */
+    display: block; /* Убираем возможные лишние отступы 
 }
 
 @media (max-width: 1800px) {
     .footer-svg {
-        height: 64px; /* увеличиваем высоту в моб. версии */
-        width: 280vw; /* Еще больше растягиваем на мобильных */
-        transform: translateX(-20%); /* Корректируем центр */
-    }
+        height: 64px; /* увеличиваем высоту в моб. версии 
+        width: 280vw; /* Еще больше растягиваем на мобильных 
+        transform: translateX(-20%); /* Корректируем центр 
+    } */
 }
 
