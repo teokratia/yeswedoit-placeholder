@@ -37,6 +37,10 @@ body {
     position: relative;
 }
 
+* {
+    cursor: none !important;
+}
+
 .parent-container { /* родительский блок для .content */
     display: flex;
     flex-direction: column;
