@@ -9,6 +9,10 @@
     font-style: normal;
 }
 
+html, body {
+    overflow-x: hidden; /* Запрещаем горизонтальный скролл */
+}
+
 /* Кастомный курсор - точка */
 .cursor-dot {
     position: fixed;
@@ -186,19 +190,21 @@ body {
 
 .footer-wrapper {
     position: absolute;
-    bottom: 36px; /* Отступ снизу */
+    bottom: 36px;
     left: 0;
-    width: 100%;
-    overflow: hidden; /* Обрезаем лишнее */
-    white-space: nowrap; /* Запрещаем перенос строк */
+    width: 100vw; /* Делаем ширину равной экрану */
+    overflow: hidden; /* Обрезаем все, что выходит за экран */
+    white-space: nowrap;
 }
 
 .footer-svg {
     display: inline-block;
-    height: 38px; /* Фиксированная высота */
+    height: 38px;
     width: auto;
-    animation: moveFooter 300s linear infinite; /* Анимация 20 секунд, повторяется бесконечно */
+    min-width: 200%; /* Делаем SVG шире, чтобы он красиво двигался */
+    animation: moveFooter 300s linear infinite;
 }
+
 
 @keyframes moveFooter {
     from {
