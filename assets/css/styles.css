@@ -114,8 +114,8 @@ body {
     margin: 0; /* Убираем все стандартные отступы */
     line-height: 96%;
     font-weight: 400;
-    margin-bottom: 20px; /* Задаем свой нижний отступ */
-    margin-top: 18px;
+    margin-bottom: 36px; /* Задаем свой нижний отступ */
+    margin-top: 32px;
     z-index: 100;
 }
 
