@@ -127,7 +127,7 @@ body {
 }
 
 .button:hover {
-    cursor: url('/assets/svg/custom-cursor.svg'), auto;
+    cursor: url('/assets/svg/custom-cursor-2'), auto;
 }
 
 .button-primary {
