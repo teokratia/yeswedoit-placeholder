@@ -116,6 +116,7 @@ body {
     font-weight: 400;
     margin-bottom: 40px; /* Задаем свой нижний отступ */
     margin-top: 36px;
+    z-index: 100;
 }
 
 /* Кнопки */
