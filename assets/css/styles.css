@@ -21,6 +21,10 @@
     z-index: 9999; /* Поверх всего */
 }
 
+* {
+    cursor: none !important;
+}
+
 @media (max-width: 1024px) { /* Можно изменить на 768px, если только для телефонов */
     .cursor-dot {
         display: none;
@@ -41,10 +45,6 @@ body {
     height: 100vh;
     overflow: hidden; /* Убираем прокрутку */
     position: relative;
-}
-
-* {
-    cursor: none !important;
 }
 
 .parent-container { /* родительский блок для .content */
