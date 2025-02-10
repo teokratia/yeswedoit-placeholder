@@ -13,6 +13,7 @@ html, body {
     overflow-x: hidden; /* Запрещаем горизонтальный скролл */
     height: 100%;
     overflow: hidden; /* Убираем вертикальную прокрутку */
+    touch-action: none; /* Отключаем случайные жесты */
 }
 
 /* Кастомный курсор - точка */
@@ -74,7 +75,7 @@ body {
     max-width: 600px;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Центрируем по вертикали */
+    justify-content: space-between; /* Раздвигаем контент по высоте */
     align-items: center; /* Центрируем по горизонтали */
     height: 100vh; /* Растягиваем на весь экран */
 }
