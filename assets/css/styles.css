@@ -65,6 +65,7 @@ body {
     display: block;
     margin-top: 36px;
     margin-bottom: auto; /* Дает место снизу */
+    cursor: none;
 }
 
 /* Контентный блок */
@@ -101,6 +102,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 8px;
+    cursor: none; /* Убираем стандартный курсор */
 }
 
 .button {
@@ -112,6 +114,10 @@ body {
     text-decoration: none;
     font-size: 10pt;
     border-radius: 6px;
+}
+
+.button:hover {
+    cursor: url('/assets/svg/custom-cursor.svg'), auto;
 }
 
 .button-primary {
