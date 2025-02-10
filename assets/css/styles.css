@@ -197,7 +197,7 @@ body {
     display: inline-block;
     height: 38px; /* Фиксированная высота */
     width: auto;
-    animation: moveFooter 20s linear infinite; /* Анимация 20 секунд, повторяется бесконечно */
+    animation: moveFooter 300s linear infinite; /* Анимация 20 секунд, повторяется бесконечно */
 }
 
 @keyframes moveFooter {
