@@ -44,7 +44,7 @@ html, body {
 }
 @media (max-width: 768px) {
     .headline {
-        font-size: 26pt; /* Уменьшаем заголовок */
+        font-size: 24pt; /* Уменьшаем заголовок */
     }
 
     .footer-svg {
@@ -198,17 +198,17 @@ body {
     color: #0A0B0C;
 }
 
-/* SVG фоновая картинка */
+/* SVG фоновая картинка 
 .background-svg {
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     width: 480px; /* уменьшаем ширину */
-    height: auto; /* сохраняем пропорции */
-    max-height: 85vh; /* ограничиваем высоту */
-    z-index: -100;
-}
+    /*height: auto; /* сохраняем пропорции */
+   /* max-height: 85vh; /* ограничиваем высоту */
+   /* z-index: -100;
+} */
 
 .footer-wrapper {
     position: absolute;
