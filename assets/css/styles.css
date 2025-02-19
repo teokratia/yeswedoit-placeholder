@@ -109,14 +109,14 @@ body {
 }
 
 .headline {
-    font-size: 32pt;
+    font-size: 26pt;
     font-weight: 400;
     margin: 0; /* Убираем все стандартные отступы */
     line-height: 96%;
     font-weight: 400;
     margin-bottom: 36px; /* Задаем свой нижний отступ */
     margin-top: 28px;
-    z-index: 100;
+    z-index: 500;
 }
 
 /* Кнопки */
