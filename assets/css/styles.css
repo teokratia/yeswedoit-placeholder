@@ -75,7 +75,8 @@ body {
     max-width: 600px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Раздвигаем контент по высоте */
+    /*justify-content: space-between; /* Раздвигаем контент по высоте */
+    justify-content: center;
     align-items: center; /* Центрируем по горизонтали */
     height: 100vh; /* Растягиваем на весь экран */
 }
@@ -92,8 +93,8 @@ body {
 
 /* Контентный блок */
 .content {
-    flex: 1; /* Занимает всё доступное место */
     display: flex;
+    flex: 1; /* Занимает всё доступное место */
     margin: 0;
     padding: 0 44;
     flex-direction: column;
@@ -112,7 +113,7 @@ body {
     font-size: 30pt;
     font-weight: 400;
     margin: 0; /* Убираем все стандартные отступы */
-    line-height: 96%;
+    line-height: 1.1;
     font-weight: 400;
     margin-bottom: 36px; /* Задаем свой нижний отступ */
     margin-top: 28px;
@@ -129,7 +130,8 @@ body {
 }
 
 .button {
-    display: inline-block;
+    /*display: inline-block;*/
+    display: flex;
     width: 180px;
     height: 40px;
     line-height: 40px;
@@ -137,6 +139,8 @@ body {
     text-decoration: none;
     font-size: 10pt;
     border-radius: 4px;
+    align-items: center;
+    justify-content: center;
 }
 
 .button:hover {
