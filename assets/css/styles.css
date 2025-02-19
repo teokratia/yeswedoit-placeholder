@@ -93,7 +93,7 @@ body {
 /* Контентный блок */
 .content {
     flex: 1; /* Занимает всё доступное место */
-    /*display: flex;*/
+    display: flex;
     margin: 0;
     padding: 0 44;
     flex-direction: column;
@@ -109,7 +109,7 @@ body {
 }
 
 .headline {
-    font-size: 26pt;
+    font-size: 30pt;
     font-weight: 400;
     margin: 0; /* Убираем все стандартные отступы */
     line-height: 96%;
