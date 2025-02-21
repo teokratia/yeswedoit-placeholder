@@ -12,8 +12,8 @@
 html, body {
     overflow-x: hidden; /* Запрещаем горизонтальный скролл */
     height: 100%;
-    overflow: hidden; /* Убираем вертикальную прокрутку */
-    touch-action: none; /* Отключаем случайные жесты */
+   /* overflow: hidden; /* Убираем вертикальную прокрутку */
+   /* touch-action: none; /* Отключаем случайные жесты */
 }
 
 /* Кастомный курсор - точка */
@@ -42,15 +42,7 @@ html, body {
         display: none;
     }
 }
-@media (max-width: 768px) {
-    .headline {
-        font-size: 24pt; /* Уменьшаем заголовок */
-    }
 
-    .footer-svg {
-        max-height: 12vh; /* Уменьшаем футер еще больше */
-    }
-}
 
 /* Общие стили */
 body {
@@ -127,6 +119,16 @@ body {
     margin-bottom: 36px; /* Задаем свой нижний отступ */
     margin-top: 28px;
     z-index: 500;
+}
+
+@media (max-width: 768px) {
+    .headline {
+        font-size: 22pt; /* Уменьшаем заголовок */
+    }
+
+    .footer-svg {
+        max-height: 12vh; /* Уменьшаем футер еще больше */
+    }
 }
 
 /* Кнопки */
