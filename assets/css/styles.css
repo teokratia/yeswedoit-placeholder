@@ -47,7 +47,7 @@ html, body {
 /* Общие стили */
 body {
     cursor: none;
-    background-color: #0A0B0C;
+    background-color: #060906;
     color: #ffffff;
     font-family: 'Manrope', sans-serif;
     margin: 0;
@@ -173,7 +173,7 @@ body {
 }
 
 .button-primary span {
-    background: #eeee69; /* Цвет фона под текстом */
+    background: #ffee69; /* Цвет фона под текстом */
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
     padding: -1px 0px; /* Уменьшаем отступы вокруг текста */
@@ -186,17 +186,17 @@ body {
     background-color: transparent;
     color: #ffffff;
     font-family: 'Manrope', sans-serif;
-    border: 1px solid #1C1D1B;
+    border: 1px solid #696969;
     text-fill-color: #000000;
 }
 
 .button-secondary:hover {
-    background-color: #171717;
+    background-color: #696969;
     color: #ffffff;
 }
 
 .button-primary:hover {
-    background-color: #eeee69;
+    background-color: #ffee69;
     color: #0A0B0C;
 }
 
