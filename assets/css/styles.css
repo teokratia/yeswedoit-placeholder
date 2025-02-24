@@ -168,7 +168,7 @@ body {
 @media (max-width: 768px) {
     .headline {
         font-size: 28pt;
-        padding: 0 24px;
+        padding: 0 20px;
     }
     .headline .highlight {
         font-size: 30pt; /* Уменьшаем в мобильной версии */
