@@ -212,14 +212,14 @@ body {
     z-index: -100;
 } 
 
-.footer-wrapper {
+/*.footer-wrapper {
     position: absolute;
     bottom: 36px;
     left: 0;
-    width: 100vw; /* Делаем ширину равной экрану */
-    overflow: hidden; /* Обрезаем все, что выходит за экран */
+    width: 100vw; /* Делаем ширину равной экрану 
+    overflow: hidden; /* Обрезаем все, что выходит за экран 
     white-space: nowrap;
-}
+}*/
 
 /*.footer-svg {
     display: inline-block;
@@ -231,7 +231,7 @@ body {
 
 .footer-svg {
   /*  display: inline-block;*/
-    position: absolute;
+    /*position: absolute;*/
     bottom: 36px;
     height: 38px;
     width: 100vw;
