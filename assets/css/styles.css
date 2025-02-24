@@ -80,6 +80,7 @@ body {
     justify-content: center;
     align-items: center; /* Центрируем по горизонтали */
     height: 100vh; /* Растягиваем на весь экран */
+    position: relative; /* Обязательно */
 }
 
 /* Логотип */
@@ -90,6 +91,7 @@ body {
     display: block;
     margin-top: 36px;
    /* margin-bottom: auto; /* Дает место снизу */
+    transform: translateX(-50%); /* Центрируем */
     cursor: none;
 }
 
