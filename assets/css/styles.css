@@ -86,7 +86,7 @@ body {
 /* Логотип */
 .logo {
     width: 90px;
-    position: absolute;
+    position: fixed;
     height: auto;
     display: block;
     margin-top: 36px;
@@ -116,12 +116,12 @@ body {
 .headline {
     font-size: 36pt;
     font-weight: 400;
-    line-height: 0.8;
+    line-height: 0.9;
     font-weight: 400;
-    margin-bottom: 28px; /* Задаем свой нижний отступ */
-    margin-top: 20px;
+    margin-bottom: 26px; /* Задаем свой нижний отступ */
+    margin-top: 18px;
     z-index: 500;
-    padding: 10px 0;
+    padding: 12px 0;
 }
 
 @media (max-width: 768px) {
@@ -206,7 +206,7 @@ body {
 
 /* SVG фоновая картинка */
 .background-svg {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
