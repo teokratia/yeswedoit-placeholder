@@ -216,11 +216,11 @@ body {
     z-index: -100;
 } 
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     .background-svg {
         width: 420px; 
     }
-}
+}*/
 
 
 /*.footer-wrapper {
