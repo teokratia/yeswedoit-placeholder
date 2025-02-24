@@ -99,6 +99,7 @@ body {
 .content {
     display: flex;
     flex: 1; /* Занимает всё доступное место */
+    position: fixed;
     margin: 0;
     padding: 0 44;
     flex-direction: column;
@@ -180,7 +181,7 @@ body {
     background: #ffee69; /* Цвет фона под текстом */
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
-    padding: -1px 0px; /* Уменьшаем отступы вокруг текста */
+    padding: 0px 0px; /* Уменьшаем отступы вокруг текста */
     line-height: 1; /* Исправляем высоту текста */
     display: inline-block; /* Корректное поведение */
     border-radius: 3px;
