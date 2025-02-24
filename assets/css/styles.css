@@ -253,7 +253,7 @@ body {
 
 .footer-wrapper {
     position: fixed; /* Фиксируем внизу экрана */
-    bottom: 0;
+    bottom: 36px;
     left: 0;
     width: 100vw; /* Занимает всю ширину экрана */
     height: 38px; /* Фиксированная высота */
@@ -272,7 +272,7 @@ body {
 
 @media (max-width: 768px) {
     .footer-svg {
-        bottom: 36px; 
+        bottom: 55px; 
     }
 }
 
