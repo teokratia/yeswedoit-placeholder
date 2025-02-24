@@ -113,12 +113,12 @@ body {
     margin: 0; /* Убираем все стандартные отступы /#   margin-bottom: 46#px; */
 }
 
-.headline {
+/*.headline {
     font-size: 36pt;
     font-weight: 400;
     line-height: 0.9;
     font-weight: 400;
-    margin-bottom: 26px; /* Задаем свой нижний отступ */
+    margin-bottom: 26px;  Задаем свой нижний отступ 
     margin-top: 18px;
     z-index: 500;
     padding: 12px 0;
@@ -126,14 +126,49 @@ body {
 
 @media (max-width: 768px) {
     .headline {
-        font-size: 32pt; /* Уменьшаем заголовок */
+        font-size: 32pt;  Уменьшаем заголовок 
         padding: 0 40px;
     }
 
     .footer-svg {
-        max-height: 12vh; /* Уменьшаем футер еще больше */
+        max-height: 12vh; /* Уменьшаем футер еще больше 
+    }
+}*/
+
+@font-face {
+    font-family: 'AdditionalFont';
+    src: url('/assets/fonts/additional-2.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.headline {
+    font-size: 36pt;
+    font-weight: 400;
+    line-height: 0.9;
+    margin-bottom: 26px;
+    margin-top: 18px;
+    z-index: 500;
+    padding: 12px 0;
+}
+
+.headline .highlight {
+    font-family: 'AdditionalFont', sans-serif; /* Новый шрифт */
+    font-size: 40pt; /* Измененный размер */
+    color: #FFee69; /* Новый цвет */
+    /*font-weight: 600;  Более жирный, если нужно */
+}
+
+@media (max-width: 768px) {
+    .headline {
+        font-size: 32pt;
+        padding: 0 40px;
+    }
+    .headline .highlight {
+        font-size: 36pt; /* Уменьшаем в мобильной версии */
     }
 }
+
 
 /* Кнопки */
 .buttons {
