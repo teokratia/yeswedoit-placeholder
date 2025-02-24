@@ -312,6 +312,7 @@ body {
 }
 
 .footer-svg {
+    will-change: transform;
     display: inline-block;
     height: 38px; /* Фиксированная высота */
     width: auto; /* Автоширина */
