@@ -190,12 +190,12 @@ body {
     background-color: transparent;
     color: #ffffff;
     font-family: 'Manrope', sans-serif;
-    border: 1px solid #696969;
+    border: 1px solid #232323;
     text-fill-color: #000000;
 }
 
 .button-secondary:hover {
-    background-color: #696969;
+    background-color: #232323;
     color: #ffffff;
 }
 
