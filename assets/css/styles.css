@@ -114,19 +114,20 @@ body {
 }
 
 .headline {
-    font-size: 30pt;
+    font-size: 36pt;
     font-weight: 400;
-    margin: 0; /* Убираем все стандартные отступы */
     line-height: 1.1;
     font-weight: 400;
-    margin-bottom: 36px; /* Задаем свой нижний отступ */
-    margin-top: 28px;
+    margin-bottom: 28px; /* Задаем свой нижний отступ */
+    margin-top: 20px;
     z-index: 500;
+    padding: 10px 0;
 }
 
 @media (max-width: 768px) {
     .headline {
-        font-size: 22pt; /* Уменьшаем заголовок */
+        font-size: 32pt; /* Уменьшаем заголовок */
+        padding: 0 55px;
     }
 
     .footer-svg {
