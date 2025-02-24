@@ -232,7 +232,7 @@ body {
     animation: moveFooter 300s linear infinite;
 }*/
 
-.footer-svg {
+/*.footer-svg {
   /*  display: inline-block;
     position: absolute;
     bottom: 36px;
@@ -240,19 +240,39 @@ body {
     width: 100vw;
     overflow: hidden;
     min-width: 200%;  Делаем SVG шире, чтобы он красиво двигался 
-    animation: moveFooter 300s linear infinite;*/
-    position: fixed; /* Вместо absolute */
+    animation: moveFooter 300s linear infinite;
+    position: fixed;  Вместо absolute 
     bottom: 36px;
     left: 0;
-    width: 100vw; /* Растягиваем на всю ширину */
+    width: 100vw;  Растягиваем на всю ширину 
     height: auto;
-    min-height: 38px; /* Минимальная высота, если вдруг сжимается */
+    min-height: 38px; /* Минимальная высота, если вдруг сжимается 
     overflow: hidden;
     animation: moveFooter 300s linear infinite;
+}*/
+
+.footer-wrapper {
+    position: fixed; /* Фиксируем внизу экрана */
+    bottom: 0;
+    left: 0;
+    width: 100vw; /* Занимает всю ширину экрана */
+    height: 38px; /* Фиксированная высота */
+    overflow: hidden; /* Обрезаем лишнее */
+    background-color: transparent; /* Фон не нужен */
+    white-space: nowrap; /* Запрещаем перенос строк */
 }
+
+.footer-svg {
+    display: inline-block;
+    height: 38px; /* Фиксированная высота */
+    width: auto; /* Автоширина */
+    min-width: 200%; /* Делаем шире экрана, чтобы создать эффект бегущей строки */
+    animation: moveFooter 300s linear infinite; /* Анимация */
+}
+
 @media (max-width: 768px) {
     .footer-svg {
-        bottom: 80px; 
+        bottom: 36px; 
     }
 
 
