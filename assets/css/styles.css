@@ -267,7 +267,7 @@ body {
     height: 38px; /* Фиксированная высота */
     width: auto; /* Автоширина */
     min-width: 200%; /* Делаем шире экрана, чтобы создать эффект бегущей строки */
-    animation: moveFooter 300s linear infinite; /* Анимация */
+    animation: moveFooter 550s linear infinite; /* Анимация */
 }
 
 @media (max-width: 768px) {
