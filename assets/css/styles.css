@@ -199,9 +199,9 @@ body {
 
 .button-primary {
     background: white;
-    padding: 0;
     border-radius: 4px;
     display: inline-block;
+    text-align: center;
     text-decoration: none;
     font-family: 'Cooper LT BT', sans-serif;
     font-weight: regular;
