@@ -233,15 +233,27 @@ body {
 }*/
 
 .footer-svg {
-  /*  display: inline-block;*/
+  /*  display: inline-block;
     position: absolute;
     bottom: 36px;
     height: 38px;
     width: 100vw;
     overflow: hidden;
-    min-width: 200%; /* Делаем SVG шире, чтобы он красиво двигался */
+    min-width: 200%;  Делаем SVG шире, чтобы он красиво двигался 
+    animation: moveFooter 300s linear infinite;*/
+    position: fixed; /* Вместо absolute */
+    bottom: 36px;
+    left: 0;
+    width: 100vw; /* Растягиваем на всю ширину */
+    height: auto;
+    min-height: 38px; /* Минимальная высота, если вдруг сжимается */
+    overflow: hidden;
     animation: moveFooter 300s linear infinite;
 }
+@media (max-width: 768px) {
+    .footer-svg {
+        bottom: 80px; 
+    }
 
 
 @keyframes moveFooter {
